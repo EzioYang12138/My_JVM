@@ -28,6 +28,7 @@ import cn.yangjian.jvm.runtime.stack.JavaFrame;
 import cn.yangjian.jvm.runtime.stack.LocalVars;
 import cn.yangjian.jvm.runtime.stack.OperandStack;
 import cn.yangjian.jvm.runtime.struct.JObject;
+import cn.yangjian.jvm.utils.CodeUtils;
 import cn.yangjian.jvm.utils.TypeUtils;
 import com.google.gson.Gson;
 
