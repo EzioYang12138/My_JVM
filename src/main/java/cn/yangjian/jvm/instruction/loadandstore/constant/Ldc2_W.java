@@ -6,7 +6,7 @@ import cn.yangjian.jvm.classfile.constantpool.literal.ConstantDouble;
 import cn.yangjian.jvm.classfile.constantpool.literal.ConstantLong;
 import cn.yangjian.jvm.instruction.Instruction;
 import cn.yangjian.jvm.interpreter.CallSite;
-import cn.yangjian.jvm.interpreter.CodeUtils;
+import cn.yangjian.jvm.utils.CodeUtils;
 import cn.yangjian.jvm.interpreter.Interpreter;
 import cn.yangjian.jvm.runtime.JavaClass;
 import cn.yangjian.jvm.runtime.RunTimeEnv;
