@@ -6,23 +6,20 @@
 
     <groupId>cn.yangjian.jvm</groupId>
     <artifactId>My_JVM</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <parent>
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter -->
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter</artifactId>
+        <version>2.0.3.RELEASE</version>
+    </parent>
 
-    <!-- json解析包 -->
-    <dependencies>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.62</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.8.5</version>
-        </dependency>
-
-    </dependencies>
+    <modules>
+        <module>EVM</module>
+        <module>Monitor_Client</module>
+        <module>Monitor_Server</module>
+    </modules>
 
 </project>
